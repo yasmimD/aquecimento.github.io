@@ -1,0 +1,195 @@
+/*Formatações Iniciais*/
+body{
+	margin:0px;
+	padding: 0px;
+	background: #F5F5F5;
+	font-family: "Trebuchet MS", helvetica, sans-serif;
+}
+div{
+	display: block;
+}
+h1{
+	margin: 0px;
+	padding: 0px;
+}
+span{
+	color: white;
+}
+/* Fim das formatações iniciais */
+
+
+/*Header*/
+#topo{
+	height: 150px;
+	background: linear-gradient(to bottom, rgba(5,61,140,1) 0%, rgba(132,217,186,1) 100%);
+	text-align: center;
+}
+
+#logo{
+	padding-top: 10px;
+	font-size: 30px;
+	color: white;
+}
+
+#menu li{
+	display: inline;
+	
+}
+
+#menu ul{
+	list-style: none;
+	
+}
+
+#menu a{
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	color: white;
+
+}
+
+#menu a:hover{
+	color: #84d9ba;
+	background-color: white;
+	
+}
+/* Fim do Header */
+
+
+/*Conteudo*/
+#conteudo{
+	width: 920px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #F5F5F5;
+    margin-top: 30px;
+}
+#conteudo p{
+	line-height: 1.5em;
+}
+
+.titulo{
+	font-size:40px;
+	color: #228B22;
+	border-bottom: 2px solid  #228B22;
+}
+
+#topicos{
+	color: #B8A212;
+	font-size: 20px;
+}
+
+/* Fim do Conteudo */
+
+
+
+/*Formulario*/
+
+fieldset {
+	margin: 1em 0;
+	padding: 1em;
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+}
+
+legend{
+	font-weight: bold;
+}
+label{
+	display: block;
+	cursor: pointer;
+}
+input [type="text"]{
+	width: 300px;
+}
+textarea{
+	width: 20em;
+	height: 10em;
+}
+
+button{
+	background-color: #4CAF50;
+  	border: none;
+	color: white;
+  	padding: 10px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 14px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	border-radius: 5px;
+}
+
+#imagem img{
+	width: 100%;
+}
+/* Fim do Formulario */
+
+
+iframe{
+	width: 100%;
+	height: 400px
+}
+
+
+/* Tabelas */
+table{
+	width: 100%;
+}
+th, td{
+	padding: 7px;
+}
+th{
+	text-transform: uppercase;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111;
+	text-align: left;
+	font-size: 90%;
+	letter-spacing: 0.1em;
+}
+tr.alternado {
+	background-color: #efefef;
+}
+tr:hover {
+	background-color: #c3e6e5;
+}
+/* Fim das Tabelas */
+
+@media (max-width: 950px){
+	#conteudo{
+		width: 700px;
+	}
+}
+
+@media (max-width: 750px){
+	#conteudo{
+		width: 500px;
+	}
+	
+}
+
+@media (max-width: 650px){
+	#conteudo{
+		margin: 0 auto;
+		width: 90%;
+		
+	}
+	.titulo{
+		font-size: x-large;
+	}
+	#menu{
+		display: none;
+	}
+	#logo{
+		font-size: 20px;
+	}
+	#topo{
+		height: 100px;
+	}
+	
+}
